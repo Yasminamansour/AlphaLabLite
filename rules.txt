@@ -1,0 +1,11 @@
+usage: cli.py [-h] {excute,view}
+
+CLI tool
+
+positional arguments:
+    {execute,view}
+        execute     Read entire stdin as input script
+        view        View items by ID
+
+options:
+    -h, --help show this help message and exit 
