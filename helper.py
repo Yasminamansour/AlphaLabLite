@@ -16,7 +16,6 @@ def input_parse(string):
     res = re.findall(r'[^{}]+', string)
     return [item.strip() for item in res]
 # reads commands 
-import re
 def read_commands(lines=None):
     if lines is None:
         lines = []
