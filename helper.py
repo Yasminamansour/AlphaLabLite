@@ -1,5 +1,6 @@
-# helps print the view output as requested 
+
 import re
+# helps print the view output as requested in CLI code
 def print_series(data, script_id):
     if data is None:
         print(f"No script found with id: {script_id}")
