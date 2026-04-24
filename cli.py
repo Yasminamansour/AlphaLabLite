@@ -3,7 +3,7 @@ from transformation_impl import rules
 from services import execute, view
 from helper import read_commands, print_series
 arg = sys.argv
-the user entered -h or --h 
+#the user entered -h or --h 
 if len(arg) < 2 or arg[1] == "-h" or arg[1] == "--help": #if the user did not enter any argument print the rules
     print(rules())
 elif arg[1] == "execute": # if he enteted execute
